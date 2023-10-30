@@ -42,7 +42,15 @@ self.addEventListener('install', e => {
 
             cache.add('detalles.html'),
             cache.add('detalles.html?personaje=Adrian.jpg'),
-            cache.add('detalles.html?personaje=*'),
+            cache.add('detalles.html?personaje=Apolo.jpg'),
+            cache.add('detalles.html?personaje=Mickey Goldmill.jpg'),
+            cache.add('detalles.html?personaje=Paulie.jpg'),
+            cache.add('detalles.html?personaje=rocky1.jpg'),
+            cache.add('detalles.html?personaje=Clubber Lang.jpg'),
+            cache.add('detalles.html?personaje=Ivan Drago.jpg'),
+            cache.add('detalles.html?personaje=Tommy_Gunn.webp'),
+            cache.add('detalles.html?personaje=Mason Dixon.webp'),
+            cache.add('detalles.html?personaje=Adonis.jpg'),
             cache.add('index.html'),
             cache.add('personajes.html'),
 
