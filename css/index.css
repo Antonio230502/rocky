@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.centrar{
+    height: calc(100vh - 56px);
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagenPrincipal{
+    width: 380px;
+    cursor: pointer;
+}
+
+#imagenPrincipal:hover{
+    box-shadow: 0px 0px 25px 15px rgb(59 47 16);
+}
+
+#imagenPrincipal:active{
+    box-shadow: none;
+}

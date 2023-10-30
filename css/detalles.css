@@ -1,0 +1,22 @@
+#btnRegresar{
+    margin-top: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.contenedorPrincipal{
+    padding: 0 25px 25px 25px;
+}
+
+#nombrePersonaje{
+    text-align: center;
+}
+
+#descripcion{
+    text-align: justify;
+}
+
+.centrar{
+    width: 300px;
+    margin: 0 auto;
+}

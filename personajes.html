@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1F2A37">
+    <link rel="stylesheet" href="css/personajes.css">
+    <link rel="stylesheet" href="css/bootstrap1.min.css">
+    <link rel="shortcut icon" href="Img/favicon.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <title>Personajes</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning" data-bs-theme="dark">
+        <div class="container-fluid" style="width: 200px;">
+            <a class="navbar-brand" href="#">
+                🥊 <strong>Rocky Balboa</strong> 🥊
+            </a>
+        </div>
+    </nav>
+
+    <img src="Img/left-arrow.png" alt="" id="btnRegresar">
+        
+    <div class="contenedorImagen">
+        <h5>Personajes de la franquicia de Rocky Balboa por película</h5>
+        <select id="peliculas" class="form-select"></select>
+        <img id="imagenPelicula" src="Img/peliculaDefault.jpg" width="300px" height="400px" class="img-fluid"></img>
+        <select id="selectPersonaje" class="form-select"></select>
+        <p id="nombrePersonaje"></p>
+        <img id="imagenPersonaje" src="Img/personajes.jpg" width="300px" height="400px" class="img-fluid"></img>
+    </div>
+    <script src="js/pouchdb.min.js"></script>
+    <script src="js/uuid_8.3.2.min.js"></script>
+    <script src="js/personajes.js"></script>
+</body>
+
+</html>

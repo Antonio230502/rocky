@@ -1,0 +1,46 @@
+{
+    "short_name": "Rocky",
+    "name": "App de Rocky",
+    "start_url": "index.html",
+    "background_color": "#1F2A37",
+    "theme_color": "#1F2A37",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "Img/Icons/boxing-glove512.png",
+            "type": "image/png",
+            "sizes": "512x512" 
+        },
+        {
+            "src": "Img/Icons/boxing-glove256.png",
+            "type": "image/png",
+            "sizes": "256x256" 
+        },
+        {
+            "src": "Img/Icons/boxing-glove128.png",
+            "type": "image/png",
+            "sizes": "128x128" 
+        },
+        {
+            "src": "Img/Icons/boxing-glove64.png",
+            "type": "image/png",
+            "sizes": "64x64" 
+        },
+        {
+            "src": "Img/Icons/boxing-glove32.png",
+            "type": "image/png",
+            "sizes": "32x32" 
+        },
+        {
+            "src": "Img/Icons/boxing-glove24.png",
+            "type": "image/png",
+            "sizes": "24x24" 
+        },
+        {
+            "src": "Img/Icons/boxing-glove16.png",
+            "type": "image/png",
+            "sizes": "16x16" 
+        }
+    ]
+}

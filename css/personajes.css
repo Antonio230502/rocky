@@ -1,0 +1,34 @@
+#btnRegresar{
+    margin-top: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#btnRegresar:hover{
+    outline: 2px solid rgb(185, 175, 154);
+}
+
+.contenedorImagen{
+    /* outline: 2px solid white; */
+    /* height: 80vh; */
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+#nombrePersonaje{
+    margin: 0;
+}
+
+#peliculas{
+    margin-bottom: 15px;
+}
+
+#selectPersonaje, #imagenPersonaje{
+    display: none;
+}
