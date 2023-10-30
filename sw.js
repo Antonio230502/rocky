@@ -10,6 +10,7 @@ self.addEventListener('install', e => {
             cache.add('css/personajes.css'),
 
             cache.add('Img/principal.jpg'),
+            cache.add('Img/left-arrow.png')
             
             cache.add('Img/Adonis.jpg'),
             cache.add('Img/Adrian.jpg'),
@@ -31,11 +32,13 @@ self.addEventListener('install', e => {
             cache.add('Img/pelicula7.jfif'),
             cache.add('Img/pelicula8.jpg'),
             cache.add('Img/pelicula9.jpg'),
+            cache.add('Img/peliculaDefault.jpg'),
 
-            cache.add('js/app.js'),
             cache.add('js/detalles.js'),
             cache.add('js/index.js'),
             cache.add('js/personajes.js'),
+            cache.add('js/pouchdb.min.js'),
+            cache.add('js/uuid_8.3.2.min.js'),
 
             cache.add('detalles.html'),
             cache.add('index.html'),
@@ -49,22 +52,6 @@ self.addEventListener('install', e => {
 })
 
 self.addEventListener('fetch', e => {
-    //Estrategia 0 only net
-    //Estrategia 1 only cache
-    //Estrategia 2 first cache, then network
-
-    // const respuesta = caches.match(e.request)
-    //     .then(res => {
-    //         if (res) return res;
-    //         console.log('No existe el recurso de caché ->', e.request.url);
-    //         return fetch(e.request).then(newResp => {
-    //             caches.open("Boveda recursos")
-    //                 .then(cache => {
-    //                     cache.put(e.request, newResp)
-    //                 });
-    //         });
-    //     });
-    // e.respondWith(respuesta);
 
     //Estrategia 3 first network then cache
     const respuesta = fetch(e.request).then(newResp => {
