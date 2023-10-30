@@ -41,6 +41,8 @@ self.addEventListener('install', e => {
             cache.add('js/uuid_8.3.2.min.js'),
 
             cache.add('detalles.html'),
+            cache.add('detalles.html?personaje=Adrian.jpg'),
+            cache.add('detalles.html?personaje=*'),
             cache.add('index.html'),
             cache.add('personajes.html'),
 
